@@ -12,7 +12,7 @@ interface EmptyState {
 
 const EmptyState: React.FC<EmptyState> = ({
   title = "No exact matches",
-  subtitle = "Try changing or m=removing some of your filters",
+  subtitle = "Try changing or removing some of your filters",
   showReset,
 }) => {
   const router = useRouter();

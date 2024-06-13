@@ -7,12 +7,13 @@ import "./globals.css";
 import ToasterProvider from "./providers/ToasterProvider";
 import RentModal from "./components/modals/RentModal";
 import SearchModal from "./components/modals/SearchModal";
+import Footer from "./components/footer";
 
 const inter = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Airbnb",
-  description: "Airbnb clone",
+  title: "LivingLodge",
+  description: "The project is inspired by the Airbnb",
 };
 
 const RootLayout = async ({ children }: { children: React.ReactNode }) => {
@@ -27,7 +28,9 @@ const RootLayout = async ({ children }: { children: React.ReactNode }) => {
         <RegisterModal />
         <RentModal />
         <Navbar currentUser={currentUser} />
+        <Footer />
         <div className="pb-20 pt-28">{children}</div>
+        <Footer />
       </body>
     </html>
   );

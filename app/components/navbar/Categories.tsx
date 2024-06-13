@@ -1,7 +1,7 @@
 "use client";
 
-import { TbBeach, TbMountain, TbPool } from "react-icons/tb";
 import Container from "../Container";
+import { TbBeach, TbMountain, TbPool } from "react-icons/tb";
 import {
   GiBarn,
   GiBoatFishing,
@@ -16,8 +16,8 @@ import { MdOutlineVilla } from "react-icons/md";
 import CategoryBox from "../CategoryBox";
 import { usePathname, useSearchParams } from "next/navigation";
 import { FaSkiing } from "react-icons/fa";
-import { BsSnow } from "react-icons/bs";
 import { IoDiamond } from "react-icons/io5";
+import { BsSnow } from "react-icons/bs";
 
 export const categories = [
   {
@@ -28,7 +28,7 @@ export const categories = [
   {
     label: "Windmills",
     icon: GiWindmill,
-    description: "This property has windmill!",
+    description: "This property has windmills!",
   },
   {
     label: "Modern",
@@ -61,19 +61,19 @@ export const categories = [
     description: "This property has skiing activities!",
   },
   {
-    label: "Casltes",
+    label: "Castles",
     icon: GiCastle,
-    description: "This property is in a castles!",
+    description: "This property is in a castle!",
   },
   {
     label: "Camping",
     icon: GiForestCamp,
-    description: "This property has camping activites!",
+    description: "This property has camping activities!",
   },
   {
-    label: "Artic",
+    label: "Arctic",
     icon: BsSnow,
-    description: "This property is in Snow!",
+    description: "This property is in a arctic!",
   },
   {
     label: "Cave",
@@ -83,7 +83,7 @@ export const categories = [
   {
     label: "Desert",
     icon: GiCactus,
-    description: "This property is in a desert!",
+    description: "This property is in the desert!",
   },
   {
     label: "Barns",
@@ -93,44 +93,35 @@ export const categories = [
   {
     label: "Lux",
     icon: IoDiamond,
-    description: "This property is luxurious!",
+    description: "This property is in the barn!",
   },
 ];
+
 const Categories = () => {
   const params = useSearchParams();
   const category = params?.get("category");
-  const pathname = usePathname();
-  const isMainPage = pathname === "/";
+  const pathName = usePathname();
+
+  const isMainPage = pathName === "/";
 
   if (!isMainPage) {
     return null;
   }
 
   return (
-    <div>
-      <Container>
-        <div
-          className="
-                pt-2
-                flex
-                flex-row
-                items-center
-                justify-between
-                overflow-x-auto
-                "
-        >
-          {categories.map((item) => (
-            <CategoryBox
-              key={item.label}
-              label={item.label}
-              description={item.description}
-              icon={item.icon}
-              selected={category === item.label}
-            />
-          ))}
-        </div>
-      </Container>
-    </div>
+    <Container>
+      <div className="pt-4 flex flex-row items-center justify-between overflow-x-auto">
+        {categories.map((item) => (
+          <CategoryBox
+            key={item.label}
+            label={item.label}
+            description={item.description}
+            icon={item.icon}
+            selected={category === item.label}
+          />
+        ))}
+      </div>
+    </Container>
   );
 };
 

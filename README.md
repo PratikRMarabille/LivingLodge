@@ -22,7 +22,7 @@ This project aspires to mirror the essential features and aesthetic of the renow
 - Creation and deletion of properties
 - Pricing calculation
 - Advanced search algorithm by category, date range, map location, number of guests, rooms and bathrooms
-  \*\* For example we will filter out properties that have a reservation in your desired date range to travel
+  For example we will filter out properties that have a reservation in your desired date range to travel
 - Favorites system
 - Shareable URL filters
-  \*\* Lets say you select a category, location and date range, you will be able to share URL with a logged out friend in another browser and they will see the same results
+  Lets say you select a category, location and date range, you will be able to share URL with a logged out friend in another browser and they will see the same results

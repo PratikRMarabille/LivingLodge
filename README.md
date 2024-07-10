@@ -25,3 +25,13 @@ This project aspires to mirror the essential features and aesthetic of the renow
   For example we will filter out properties that have a reservation in your desired date range to travel
 - Favorites system
 - Shareable URL filters
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository: git clone https://github.com/PratikRMarabille/LivingLodge.git
+2. Navigate to the project directory: cd nextjs-airbnb-clone
+3. Install the dependencies: npm install
+4. Start the development server: npm run dev
+5. Open your browser and visit: http://localhost:3000

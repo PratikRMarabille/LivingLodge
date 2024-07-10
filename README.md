@@ -25,4 +25,3 @@ This project aspires to mirror the essential features and aesthetic of the renow
   For example we will filter out properties that have a reservation in your desired date range to travel
 - Favorites system
 - Shareable URL filters
-  Lets say you select a category, location and date range, you will be able to share URL with a logged out friend in another browser and they will see the same results

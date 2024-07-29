@@ -4,6 +4,10 @@
 
 This project aspires to mirror the essential features and aesthetic of the renowned Airbnb platform, offering users an intuitive and comprehensive interface to explore and reserve lodgings worldwide. Utilizing cutting-edge technologies, the project is constructed with Next.js for a robust and scalable frontend framework, NextAuth for seamless authentication, and Prisma for efficient database management. Zustand is employed for state management, ensuring a smooth user experience, while Tailwind CSS provides a modern and responsive design. MongoDB serves as the backend database, supporting dynamic and flexible data storage solutions. This combination of technologies creates a powerful and user-friendly application for booking accommodations globally.
 
+
+## Screenshoots of the application
+![Screenshot 2024-07-29 170647](https://github.com/user-attachments/assets/0723cc45-f763-4a54-a6ab-82a0ca8013f4)
+
 ### Features
 
 - Full responsiveness

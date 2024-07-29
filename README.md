@@ -7,7 +7,7 @@ This project aspires to mirror the essential features and aesthetic of the renow
 
 ## Screenshoots of the application
 ![Screenshot 2024-07-29 170647](https://github.com/user-attachments/assets/0723cc45-f763-4a54-a6ab-82a0ca8013f4)
-![Uploading Screenshot 2024-07-29 170722.png…]()
+![Screenshot 2024-07-29 170722](https://github.com/user-attachments/assets/1690e1bd-19ed-4a4d-b7ab-c36f8e814181)
 
 
 ### Features

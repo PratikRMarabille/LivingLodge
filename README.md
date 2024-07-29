@@ -6,8 +6,16 @@ This project aspires to mirror the essential features and aesthetic of the renow
 
 
 ## Screenshoots of the application
+#### Register Paage
 ![Screenshot 2024-07-29 170647](https://github.com/user-attachments/assets/0723cc45-f763-4a54-a6ab-82a0ca8013f4)
+#### Home Page
 ![Screenshot 2024-07-29 170722](https://github.com/user-attachments/assets/1690e1bd-19ed-4a4d-b7ab-c36f8e814181)
+#### Reservation Page
+![Screenshot 2024-07-29 170741](https://github.com/user-attachments/assets/bb262dc7-c019-4816-8876-1135bfdbe558)
+#### Favorites Page
+![Screenshot 2024-07-29 170805](https://github.com/user-attachments/assets/593a528e-e106-4be6-9e1c-ade32ff12ca8)
+#### Property Page
+![Screenshot 2024-07-29 170828](https://github.com/user-attachments/assets/c44b26cc-b174-4aec-8268-adff210c5409)
 
 
 ### Features
